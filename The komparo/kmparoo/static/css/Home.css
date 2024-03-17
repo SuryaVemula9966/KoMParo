@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body {
+       
+        background-image: url('C:\\Users\\DELL\\Downloads\\background.jpeg'); /* Replace this URL with your image URL */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+       
+        
+      }
+    
+    .kmpng{
+    position:absolute;
+    width:280px;
+    height:60px;
+    top:40px;
+    left:100px;
+    }
+    .logo{
+    box-sizing:border-box;
+    border-radius: 40px;
+    padding: 1px;
+    box-shadow: 5px 6px 14px black;
+    }
+    
+    .headers {
+        text-align: right;
+        padding: 2em;
+    }
+    
+    
+    
+    /* Dropdown container */
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+    /* Dropdown button */
+    .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    border-radius:20px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    
+    /* Links inside the dropdown */
+    .dropbtn a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    }
+    
+    footer{
+    box-sizing:border-box;
+    border-radius: 40px;
+    padding: 1px;
+    box-shadow: 5px 6px 14px black;
+    }
+    .footercontainer{
+    width:100%;
+    padding:120px 10px 10px;
+    }
+    footer .kmimg{
+    position:absolute;
+    width:280px;
+    height:60px;
+    left:600px;
+    }
+    .socialicons{
+    display:flex;
+    justify-content:center;
+    }
+    .socialicons a{
+    text-decoration:none;
+    padding:10px;
+    margin:10px;
+    border-radius:50%;
+    }
+    .socialicons a i{
+    font-size:1.5em;
+    color:black;
+    opacity:0.9;
+    }
+    .socialicons a:hover{
+    background-color:#111;
+    transition:0.5s
+    }
+    .socialicons a i:hover{
+    color:white;
+    transition:0.5s;
+    }
+    
+    
+    @media(max-width:700px){
+    .footernav ul{
+    flex-direction:column;
+    }
+    .footernav ul li{
+    width:100%;
+    text-align:center;
+    margin:10px
+    }
+    footer .kmimg{
+    width:180px;
+    left:150px;
+    }
+    .dropbtn{
+    border-radius:10px;
+    padding: 5px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    }
+    .kmpng{
+    width:180px;
+    height:30px;
+    top:30px;
+    left:1px;
+    }
+    }
+    
+    
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.234); /* Make the background transparent */
+        padding: 90px;
+        border-radius: 30px;
+        box-shadow: 2px 2px 10px rgba(13, 13, 13, 0.3);
+        text-align: center;
+        max-width: 400px;
+        width: 250px; /* Added width to center the container */
+        height: 300px; /* Increased height */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 500px;
+       
+    }
+    
+      input[type="email"],
+      input[type="password"] {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background-color: rgba(255, 255, 255, 0.155);
+        box-shadow: 2px 2px 5px rgba(57, 56, 56, 0.941);
+      }
+    
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+    
+      .submit-btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+      .submit-btn:hover {
+        background-color: #45a049;
+      }
+    
+      .registration-link {
+        margin-top: 10px;
+      }
+     
+      h2{
+        position: absolute;
+        top:50px;
+        right:190px;
+        text-align: center;
+      }
+       
+    
