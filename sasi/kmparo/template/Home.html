@@ -1,0 +1,217 @@
+{% load static %}
+<html>
+    <head>
+
+    </head>
+    <body>
+        <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="{% static 'javascript/Home.js'%}" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'Home.css'%}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+    </head>
+    <body style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+        <div class="logo">
+          <img src="{% static 'images\kmp.jpg'%}" class="kmpng" alt="">
+            <header class="headers">
+                <nav class="navbar">
+                    <div class="dropdown">
+                        <button class="dropbtn"><a href="">Sign in/Sign Up</a></button>
+                      </div>
+                </nav>
+            </header>
+        </div><br><br>
+        
+        <div class="container">
+            <div class="sidebar">
+                <div class="box" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                    <h2>Name Container</h2>
+                    <input type="text" placeholder="Search...">
+                </div>
+                <div class="box" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                    <h2>Price Range</h2>
+                    <div class="volume-range" id="volumeRange">
+                        <div class="volume-indicator" id="volumeIndicator"></div>
+                    </div>
+                    <div class="volume-label" id="volumeLabel">Medium</div>
+    
+                
+                    <select>
+                        <option value="50-100"> <p> &#8377;</p>5000- <p> &#8377;</p>10000</option>
+                        <option value="101-200"><p>&#8377;</p>10000 - <p>&#8377;</p>20000</option>
+                        <option value="50-100"><p>&#8377;</p>20000 - <p>&#8377;</p>30000</option>
+                        <option value="50-100"><p>&#8377;</p>30000 - <p>&#8377;</p>40000</option>
+                        <option value="50-100"><p>&#8377;</p>50000 - <p>&#8377;</p>60000</option>
+                        <option value="50-100"><p>&#8377;</p>60000 - <p>&#8377;</p>70000</option>
+                        <option value="50-100"><p>&#8377;</p>70000 - <p>&#8377;</p>80000</option>
+    
+                    
+                    </select>
+                </div>
+                <div class="box" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                    <h2>Brand Name</h2>
+                    
+                    <select>
+                        <option value="all">vivo V27 Pro 5G</option>
+                        <option value=>Redmi 13C 5G</option>
+                        <option value="iphone">Samsung Galaxy S24 ultra 5G</option>
+                        <option value="lava">Oppo A77s</option>
+                        <option value="asus">Vivo Y36 </option>
+                        <option value="asus">Poco X5 Pro 5G </option>
+                        <option value="asus">TECNO Spark 10C </option>
+                        <option value="asus">itel S23+|3D Curved Amoled display </option>
+                        <option value="asus">OnePlus Nord CE 3 Lite 5G </option>
+                    </select>
+                </div>
+            </div>
+            <div class="main-box" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                <h1>All Ads</h1>
+                
+                <div class="sub-box1" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                    <img src="{% static 'images\1111.jpg'%}" alt="Image 1">
+                    <div class="sub-box-content1">
+                        <h2>vivo V27 Pro 5G</h2><h3>(Magic Blue,128GB)(8GB RAM)</h3>
+                       <h2> <p>&#8377; 34,900</p></h2>
+                         <div class="button-container1">
+                            <button >Amazon</button>
+                            <button>Flipkart</button>
+                            <button>Croma</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-box2" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+                    <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+                    <div class="sub-box-content2">
+                        <h2>Redmi 13C 5G</h2><h3>(Starlight Black,4GB RAM,128GB Storage)</h3>
+                        <h2><p>&#8377;10,999</p></h2>
+                        <div class="button-container2">
+                            <button >Amazon</button>
+                            <button>Flipkart</button>
+                            <button>Croma</button>
+                        </div>
+                    </div>
+                </div>
+                
+         <div class="sub-box3" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content3">
+                <h2>Samsung Galaxy S24 ultra 5G<h2></h4> AI Smartphone(Titanium Black 12GB,256 GB Storage)</h4>
+                <h2><p>&#8377;1,29,999</p></h2>
+                <div class="button-container3">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                </div>
+            </div>
+         </div>
+         <div class="sub-box4" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content4">
+                <h2>Oppo A77s</h2> <h3>(SUNset Orange,128GB)8GB RAM</h3>
+                <h2><p>&#8377;15,999</p></h2>
+                <div class="button-container4">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                </div>
+            </div>
+         </div>
+         <div class="sub-box5" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content5">
+                <h2>Vivo Y36 </h2><h3>(Vibrand gold,8GB RAM ,128GB Storage)</h3>
+                <h2><p>&#8377;14,999</p></h2>
+                <div class="button-container5">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                </div>
+            </div>
+         </div>
+         <div class="sub-box6" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div claoss="sub-box-content6">
+                <h2>Pco X5 Pro 5G</h2><h3>(Yello,128GB )(6GB RAM)</h3>
+                <h2><p>&#8377;19,899</p></h2>
+                <div class="button-container6">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                    
+                </div>
+            </div>
+         </div>
+         <div class="sub-box7" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content7">
+                <h2>TECNO Spark 10C</h2><h3>(Magic Skin Blue,8GB RAM,128GB Storage)</h3>
+               <h2><p>&#8377;7,799</p></h2>
+                <div class="button-container7">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                </div>
+            </div>
+         </div>
+         <div class="sub-box8" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content8">
+                <h2>itel S23+|3D Curved Amoled display</h2><h3>(6GB*RAM+256GB ROM) </h3>
+                <h2><p>&#8377;13,999</p></h2>
+                <div class="button-container8">
+                    <button >Amazon</button>
+                    <button>Flipkart</button>
+                    <button>Croma</button>
+                </div>
+            </div>
+    
+         </div>
+         <div class="sub-box9" style="background-image: url('{% static 'images/bgpic.jpg'%}');">
+            <img src="{% static 'images\1111.jpg'%}" alt="Image 2">
+            <div class="sub-box-content9">
+                <h2>OnePlus Nord CE 3 Lite 5G</h2><h3>(Chromatic Gray,8GB RAM,128GB Storage) </h3>
+                <h2><p>&#8377;17,999</p></h2>
+        
+            <div class="button-container9">
+                <button >Amazon</button>
+                <button>Flipkart</button>
+                <button>Croma</button>
+            </div>
+            </div>
+            </div>
+            </div>
+    
+        </div><br><br>
+
+    
+    
+
+
+
+
+
+
+
+        <!---------Footer-------->
+        <footer>
+        <img src="{% static 'images\kmp.jpg'%}" class="kmimg" alt="">
+       <div class="footercontainer">
+        
+        <div class="socialicons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        
+       </div>
+    </footer>
+    </body>
+</html>  
+
+    </body>
+</html>
