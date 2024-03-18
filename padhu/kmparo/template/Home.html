@@ -1,14 +1,18 @@
+{% load static %}
 <html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       {% load static %}
+
         <link rel="stylesheet" href="{% static 'css\Home.css'%}">
+        <link rel="stylesheet" href="C:\Users\padma\Desktop\padhu\kmparo\static\css\Home.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
         <script src="{% static 'javascript\Home.js'%}" crossorigin="anonymous"></script>
+
     </head>
-    <body style="background-image:url('{% static 'images/bgpic.jpg'%}');"> 
+    <body style="background-image:url('{% static 'images/bgpic.jpg'%}')"> 
         
         <div class="logo">
           <img src="{% static 'images\kmp.jpg'%}" class="kmpng" alt="">
@@ -50,19 +54,27 @@
                     
                     </select>
                 </div>
+                
                 <div class="box" style="background-image:url('{% static 'images/bgpic.jpg'%}');">
-                    <h2>Brand Name</h2>
-                    
-                    <select>
-                        <option value="all">vivo V27 Pro 5G</option>
-                        <option value=>Redmi 13C 5G</option>
-                        <option value="iphone">Samsung Galaxy S24 ultra 5G</option>
-                        <option value="lava">Oppo A77s</option>
-                        <option value="asus">Vivo Y36 </option>
-                        <option value="asus">Poco X5 Pro 5G </option>
-                        <option value="asus">TECNO Spark 10C </option>
-                        <option value="asus">itel S23+|3D Curved Amoled display </option>
-                        <option value="asus">OnePlus Nord CE 3 Lite 5G </option>
+                    <h3 class="sear-head">Brand name</h3>
+                    <select class="selectpicker" data-live-search="true" id="brandSelect">
+                      <option data-tokens="All">All</option>
+                      <option data-tokens="Iphone"><a href="New.html">Iphone</a></option>
+                      <option data-tokens="Oppo">Oppo</option>
+                      <option data-tokens="Vivo">Vivo</option>
+                      <option data-tokens="Intex">Intex</option>
+                      <option data-tokens="Redmi">Redmi</option>
+                      <option data-tokens="Karbonn">Karbonn</option>
+                      <option data-tokens="Iqoo">Iqoo</option>
+                      <option data-tokens="Lenovo">Lenovo</option>
+                      <option data-tokens="Realme">Realme</option>
+                      <option data-tokens="Mi">Mi</option>
+                      <option data-tokens="Micromax">Micromax</option>
+                      <option data-tokens="Motorola">Motorola</option>
+                      <option data-tokens="Nokia">Nokia</option>
+                      <option data-tokens="Samsung">Samsung</option>
+                      <option data-tokens="Sony">Sony</option>
+                      <option data-tokens="Other Mobiles">Other Mobiles</option>
                     </select>
                 </div>
             </div>
@@ -198,18 +210,36 @@
     
         <!---------Footer-------->
         <footer>
-        <img src="{% static 'images\kmp.jpg'%}" class="kmpimg" alt="">
-       <div class="footercontainer">
-        <img src="{% static 'images\kmp.jpg'%}" class="kmpng" alt="">
-        <div class="socialicons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-google-plus"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-        
-       </div>
-    
-    </footer>
+            <img class="{% static 'images\kmp.jpg'%}" class="kmimg"  alt="">
+           <div class="footercontainer">
+            
+            <div class="socialicons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            
+           </div>
+        </footer>
+
+       <script>
+                        // Add event listener to the select element
+                        document.getElementById('brandSelect').addEventListener('change', function() {
+                            var selectedBrand = this.value;
+                            // Check if the selected brand is "Asus"
+                            if (selectedBrand === 'Iphone') {
+                                // Redirect to index.html
+                                window.location.href = 'index.html';
+                            }
+                            if (selectedBrand === 'Vivo') {
+                                // Redirect to index.html
+                                window.location.href = 'New.html';
+                            }
+                            // Add more conditions for other brands if needed
+                        });
+                
+       </script>
+
     
 </html>  

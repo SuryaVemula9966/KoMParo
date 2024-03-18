@@ -1,6 +1,7 @@
+
 document.addEventListener("DOMContentLoaded", function() {
-           
-               
+   
+       
 });
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.croma.com/vivo-v27-pro-5g-8gb-ram-256gb-magic-blue-/p/270431', '_blank');
     });
 });
-/redmi/
+/*redmi*/
 
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content2 button:nth-of-type(1)');
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.croma.com/redmi-13c-5g-4gb-ram-128gb-starlight-black-/p/303161', '_blank');
     });
 });
-/Samsung Galaxy/
+/*Samsung Galaxy*/
 
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content3 button:nth-of-type(1)');
@@ -73,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.croma.com/samsung-galaxy-s24-ultra-5g-12gb-ram-256gb-titanium-gray-/p/303838', '_blank');
     });
 });
-/Oppo A77s/
+/*Oppo A77s*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content4 button:nth-of-type(1)');
     
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.croma.com/oppo-a17-4gb-ram-64gb-sunlight-orange-/p/263302', '_blank');
     });
 });
-/Vivo Y36/
+/*Vivo Y36*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content5 button:nth-of-type(1)');
     
@@ -119,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.croma.com/vivo-y28-5g-4gb-ram-128gb-crystal-purple-/p/303650', '_blank');
     });
 });
-/Pco X5 Pro 5G/
+/*Pco X5 Pro 5G*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content6 button:nth-of-type(1)');
     
@@ -142,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.jiomart.com/search/poco%20x5%20pro%205g', '_blank');
     });C
 });
-/TECNO Spark 10/
+/*TECNO Spark 10*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content7 button:nth-of-type(1)');
     
@@ -165,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.amazon.in/Display-Display-Fingerprint-5000mAh-Warranty/dp/B0CHJN4R28/ref=sr_1_3?crid=3IN010ZC9QDMR&dib=eyJ2IjoiMSJ9.w-AH_0jbZkZigf4EZrlK60mICO9CV6DYFjwyNC6De5n59p1f5xkoE8Z4ffCGIjQZrETH2LfIpUz9TcNdWWcxXj0xIbXgRPes-Rlb8x0RuP6Lbcyo-4LHoYQ_-_j4E5UGsPXgRCUAZ8eu-7BWCcQoCuzbiPOEwK8jiGwHoAXYKrJsOsn7NhvELB4721-80rXFaOySHq8YpZFJVftzlmmn0SQqNIYh_bwe6pUdsIYc4TA.8V8mX0RY0CtZLN7GqeiligrNnEvQIhYfpf0gaX725c0&dib_tag=se&keywords=itel+S23%2B&qid=1710497784&sprefix=itel+s23%2B%2Caps%2C217&sr=8-3', '_blank');
     });
 });
-/itel S23+/
+/*itel S23+*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content8 button:nth-of-type(1)');
     
@@ -188,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
         window.open('https://www.jiomart.com/search/itel%20S23%2B', '_blank');
     });
 });
-/OnePlus Nord CE 3 Lite 5G/
+/*OnePlus Nord CE 3 Lite 5G*/
 document.addEventListener("DOMContentLoaded", function() {
     const amazonButton = document.querySelector('.sub-box-content9 button:nth-of-type(1)');
     
@@ -236,18 +237,3 @@ volumeRange.addEventListener('click', (event) => {
     volumeLevel = Math.min(Math.max((clickX / rect.width) * 100, 0), 100);
     updateVolume();
 });
-
-// Initial setup
-updateVolume();
-
-
-
-
-
-
-
-
-
-
-
-

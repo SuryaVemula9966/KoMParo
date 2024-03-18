@@ -1,13 +1,13 @@
-
-    *{
+*{
     margin: 0;
     padding: 0;
     }
     body{
+        background-image: url('file:///C:/Users/DELL/Downloads/83bc67f1-533c-497d-b97b-b3e2f455fbe6.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
     
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     }
     .kmpng{
     position:absolute;
@@ -24,8 +24,8 @@
     }
     
     .headers {
-    text-align: right;
-    padding: 2em;
+        text-align: right;
+        padding: 2em;
     }
     
     
@@ -64,6 +64,7 @@
     border-radius: 40px;
     padding: 1px;
     box-shadow: 5px 6px 14px black;
+    
     }
     .footercontainer{
     width:100%;
@@ -100,33 +101,6 @@
     }
     
     
-    @media(max-width:700px){
-    .footernav ul{
-    flex-direction:column;
-    }
-    .footernav ul li{
-    width:100%;
-    text-align:center;
-    margin:10px
-    }
-    footer .kmimg{
-    width:180px;
-    left:150px;
-    }
-    .dropbtn{
-    border-radius:10px;
-    padding: 5px;
-    font-size: 10px;
-    border: none;
-    cursor: pointer;
-    }
-    .kmpng{
-    width:180px;
-    height:30px;
-    top:30px;
-    left:1px;
-    }
-    }
     
     .container {
         display: flex;
@@ -146,7 +120,7 @@
         border-radius: 5px;
         padding: 10px;
         overflow: hidden;
-       
+        background-image: url("file:///C:/Users/DELL/Downloads/83bc67f1-533c-497d-b97b-b3e2f455fbe6.jpg");
         background-size: cover; 
         background-repeat: no-repeat;
         background-position: center;
@@ -166,7 +140,7 @@
         display: flex;
         align-items: center;
         overflow: hidden;
-        background-image: url("C:\Users\padma\Desktop\padhu\kmparo\static\images\bgpic.jpg");
+        background-image: url("file:///C:/Users/DELL/Downloads/83bc67f1-533c-497d-b97b-b3e2f455fbe6.jpg");
         background-size: cover; 
         background-repeat: no-repeat;
         background-position: center;
@@ -194,12 +168,12 @@
     
     .box {
         background-color: #fff;
-        width: 80%;
+        width: 100%;
         border:none;
         border-radius:none;
-        padding: 10px;
+        padding: 4px;
         margin-bottom: 20px;
-        background-image: url("C:\\Users\\padma\\Downloads\\bd1\\backgroud.jpg");
+        background-image: url("file:///C:/Users/DELL/Downloads/83bc67f1-533c-497d-b97b-b3e2f455fbe6.jpg");
         background-size: cover; 
         background-repeat: no-repeat;
         background-position: center;
@@ -269,48 +243,52 @@
     
     .amazon-button {
     margin-right: 10px;
+    font-size: 10%;
     }
     .button-container1{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 360px;
-    gap: 15px;
+    top: 380px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container1 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container2{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 545px;
-    gap: 15px;
+    top: 550px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container2 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container3{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 740px;
-    gap: 15px;
+    top: 750px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container3 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container4{
     display: flex;
@@ -318,13 +296,14 @@
     position: absolute;
     right: 300px;
     top: 930px;
-    gap: 15px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container4 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container5{
     display: flex;
@@ -332,27 +311,29 @@
     position: absolute;
     right: 300px;
     top: 1120px;
-    gap: 15px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container5 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container6{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 1320px;
-    gap: 15px;
+    top: 1330px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container6 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container7{
     display: flex;
@@ -360,39 +341,186 @@
     position: absolute;
     right: 300px;
     top: 1510px;
-    gap: 15px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container7 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container8{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 1700px;
-    gap: 15px;
+    top: 1720px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container8 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size: 15px;
     }
     .button-container9{
     display: flex;
     flex-direction: column;
     position: absolute;
     right: 300px;
-    top: 1885px;
-    gap: 15px;
+    top: 1890px;
+    gap: 5px;
     border-radius: 60px;
     }
     .button-container9 button{
     border-radius: 20px;
     height: 40px;
     width: 70px;
+    font-size:15px;
+    }
+    
+    
+    @media(max-width:768px){
+        .container {
+        flex-direction: column;
+        gap: 20px;
+        }
+        .sidebar{
+            width: 100%;
+        }
+        .main-box{
+            width: 100%;
+            height: auto;
+            border-radius: 0%;
+            padding: 20px;
+            box-sizing: none;
+        }
+    
+        
+            .sub-box1,
+            .sub-box2,
+            .sub-box3,
+            .sub-box4,
+            .sub-box5,
+            .sub-box6,
+            .sub-box7,
+            .sub-box8,
+            .sub-box9 {
+                height: auto; 
+                border-radius: 0; 
+                margin-bottom: 5px; 
+                box-shadow: none; 
+            }
+            .sub-box img {
+                width: 100%; 
+                height: auto; 
+                margin-right: 0; 
+            }
+            .sub-box-content1,
+            .sub-box-content2,
+            .sub-box-content3,
+            .sub-box-content4,
+            .sub-box-content5,
+            .sub-box-content6,
+            .sub-box-content7,
+            .sub-box-content8,
+            .sub-box-content9 {
+                width: 100%; 
+            }
+            .sub-box-content p {
+                margin: 5px 0; 
+            }
+            .box {
+                width: 60%;
+                padding: 2px;
+    
+            }
+            .box h2 {
+                margin-top: 8px; 
+            }
+            .ads-container {
+                display: block;
+                gap: 5px; 
+            }
+            .ad {
+                width: 100%; 
+                padding: 5px; 
+                margin-bottom: 10px; 
+            }
+            .sub-box-content button {
+                margin-right: 5px; 
+                position: relative; 
+            }
+            .volume-range {
+                height: 3px; 
+            }
+            .volume-indicator {
+                top: calc(50% - 10px); 
+                transform: none;
+                width: 15px; 
+                height: 15px; 
+            }
+            .volume-label {
+                font-size: 10px;
+                text-align: center; 
+            }
+            .sub-box-content1 {
+                flex-direction: row; 
+                justify-content: flex-start;
+            }
+            .button-price-container {
+                justify-content: flex-start; 
+            }
+            .amazon-button {
+                margin-right: 5px;
+            }
+            .button-container1,.button-container2,.button-container3,.button-container4,.button-container5,.button-container6,.button-container7,.button-container8,.button-container9 {
+                flex-direction: column; 
+                position: static;
+                right: right; 
+                top: auto; 
+                justify-content: right; 
+                gap: 10px;
+                border-radius: 8px;
+    
+            }
+            .button-container1 button ,.button-container2 button,.button-container3 button,.button-container4 button,.button-container5 button,.button-container6 button,.button-container7 button,.button-container8 button,.button-container9 button{
+                height: 15px; 
+                width: 40px;
+                font-size:7px;
+            }
+            
+            
+            
+    
+    
+        }
+        @media(max-width:700px){
+        .footernav ul{
+        flex-direction:column;
+        }
+        .footernav ul li{
+        width:100%;
+        text-align:center;
+        margin:10px
+        }
+        footer .kmimg{
+        width:180px;
+        left:150px;
+        }
+        .dropbtn{
+        border-radius:10px;
+        padding: 5px;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        }
+        .kmpng{
+        width:180px;
+        height:30px;
+        top:30px;
+        left:1px;
+        }
     }
