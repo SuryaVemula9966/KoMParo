@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KomParo</title>
+  
+  <link rel="stylesheet" href="{% static 'Home.css' %}">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
+</head>
+<body style="background-image: url('{% static 'images\bgpic.jpg'%}');">
+  <div class="logo">
+    <img src="{% static 'images/kmp.jpg'%}" class="kmpng" alt="">
+      <header class="headers">
+          <nav class="navbar">
+              <div class="dropdown">
+                  <button class="dropbtn"><a href="">Sign in/Sign Up</a></button>
+                </div>
+          </nav>
+       </header>
+
+  <section class="image-section">
+    <!-- Image occupying entire width -->
+      <img src="{% static 'images\pexels-photo-3163943.jpeg'%}" alt="Full Width Image">
+      
+      <div class="banner-card"> 
+         <h1><b>Done is Better then Perfect</b></h1>
+      </div>
+  </section>
+
+  <section class="search-section">
+    
+    <div class="search-bar">
+      <div class="myclass">
+         <p>Select Categories</p>
+        <div class="select-container" >
+            <select class="select-box">
+                <option value="" aria-placeholder="select">Select</option>
+                <option value="mobiles">mobiles</option>
+                <option value="carscars">cars</option>
+                <option value="Books,Sports,&Hobbies">books</option>
+                <option value="kids">Kids</option>
+                <option value="realestate">Real estate</option>
+                <option value="fashion">Fashion</option>
+                <option value="pets">Pets </option>
+
+            </select> 
+            <div class="icon-container">
+              <i class="fas fa-caret-down"></i> <!-- Font Awesome triangle-down icon -->
+            </div>
+        </div> 
+      </div>
+    </div>
+    <div class="search-bar">
+     <div class="myclasss">
+        <P class="msg"> Search Specific Product List</P> 
+       <input type="text" placeholder="Search">
+       <button type="submit" style="color: white; background-color: rgba(56, 55, 55, 0.048);   
+      box-shadow: 2px 2px 5px rgba(56, 55, 55, 0.822);">&#128269;</button>
+     </div>
+    </div> 
+  </section>
+  <br>
+  
+  <!-- Footer section-->
+  <footer>
+    <img src="{% static 'images/kmp.jpg'%}" class="kmimg" alt="">
+   <div class="footercontainer">
+    
+    <div class="socialicons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-google-plus"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    
+   </div>
+</footer>
+</body>
+</html>
+
